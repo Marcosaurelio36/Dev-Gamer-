@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gamerclub</title>
+</head>
+
+<body>
+    <div class="caixa">
+    <img src="./assets/Discos do Zeca 2.png" alt="banner gamer ">
+    <h1>O que Você encontra aqui</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quos nostrum dolorum ex aliquam sunt amet
+        reprehenderit eaque in fuga? Ab facere libero nesciunt nemo modi dignissimos expedita nobis commodi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo ipsum natus dolorum expedita blanditiis
+        voluptatum nam dicta, repudiandae voluptas. Quis, tempora. Magnam commodi sed quaerat? Reprehenderit in
+        consequuntur quis.</p>
+
+
+        <button onclick="abrir()" class="contato">Fale conosco</button>
+    </div>
+        <form action="https://formsubmit.co/your@email.com" method="POST">
+            <input type="text" name="name" required placeholder="Digite seu nome">
+            <input type="email" name="email" required placeholder="Seu email">
+            <textarea type="text" name="duvida" >Sua duvida aqui</textarea>
+            <button onclick="submit()" type="submit">Send</button>
+            <button onclick="voltar()"  class="voltar">voltar</button>
+       </form>
+</body>
+<script>
+    function abrir () {
+        document.querySelector("form").style.opacity=1 
+        document.querySelector("div").style.opacity=0.3
+    }
+    function voltar () {
+        document.querySelector("form").style.opacity=0
+        document.querySelector("div").style.opacity=1
+
+    }
+    
+
+
+</script>
+</html>
