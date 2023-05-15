@@ -14,37 +14,39 @@
 
 <body>
     <div class="caixa">
-    <img src="./assets/Discos do Zeca 2.png" alt="banner gamer ">
-    <h1>O que Você encontra aqui</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quos nostrum dolorum ex aliquam sunt amet
-        reprehenderit eaque in fuga? Ab facere libero nesciunt nemo modi dignissimos expedita nobis commodi.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo ipsum natus dolorum expedita blanditiis
-        voluptatum nam dicta, repudiandae voluptas. Quis, tempora. Magnam commodi sed quaerat? Reprehenderit in
-        consequuntur quis.</p>
+        <img src="./assets/Discos do Zeca 2.png" alt="banner gamer ">
+        <h1>O que Você encontra aqui</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quos nostrum dolorum ex aliquam sunt amet
+            reprehenderit eaque in fuga? Ab facere libero nesciunt nemo modi dignissimos expedita nobis commodi.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo ipsum natus dolorum expedita blanditiis
+            voluptatum nam dicta, repudiandae voluptas. Quis, tempora. Magnam commodi sed quaerat? Reprehenderit in
+            consequuntur quis.</p>
 
 
         <button onclick="abrir()" class="contato">Fale conosco</button>
     </div>
-        <form action="https://formsubmit.co/your@email.com" method="POST">
-            <input type="text" name="name" required placeholder="Digite seu nome">
-            <input type="email" name="email" required placeholder="Seu email">
-            <textarea type="text" name="duvida" >Sua duvida aqui</textarea>
-            <button onclick="submit()" type="submit">Send</button>
-            <button onclick="voltar()"  class="voltar">voltar</button>
-       </form>
+    <form  action="https://formsubmit.co/marcos.aureliodepadua@gmail.com" method="POST">
+        <input  type="text" name="name" required placeholder="Digite seu nome">
+        <input  type="email" name="email" required placeholder="Seu email">
+        <textarea  type ="text" name="duvida"placeholder="Sua duvida aqui"></textarea>
+        <button  type="submit">Send</button>
+        <button onclick="voltar()"type="button" class="voltar">voltar</button>
+    </form>
 </body>
 <script>
-    function abrir () {
-        document.querySelector("form").style.opacity=1 
-        document.querySelector("div").style.opacity=0.3
+    function abrir() {
+        document.querySelector("form").style.opacity = 1
+        document.querySelector("div").style.opacity = 0.3
     }
-    function voltar () {
-        document.querySelector("form").style.opacity=0
-        document.querySelector("div").style.opacity=1
+    function voltar() {
+        document.querySelector("form").style.opacity = 0
+        document.querySelector("div").style.opacity = 1
 
     }
-    
+
+   
 
 
 </script>
+
 </html>
